@@ -1,0 +1,13 @@
+body {
+  background: grey;
+  color: white;
+}
+
+#first-div {
+  background: white;
+}
+
+.paragraph {
+  color: black;
+  font-size: 20px;
+}

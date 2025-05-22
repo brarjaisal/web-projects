@@ -1,0 +1,41 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #65061c;
+}
+h1 {
+  color: #65061c;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20 px 0;
+  text-shadow: 1px 1px 1px #f0f0f4;
+}
+
+p,
+li,
+a {
+  font-family: "Nanum Myeongjo", serif;
+  color: #f0f0f4;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #f0f0f4;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #1c1b22;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #f0f0f4;
+}
