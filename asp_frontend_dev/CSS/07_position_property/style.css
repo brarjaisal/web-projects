@@ -1,0 +1,35 @@
+body {
+    position: relative;
+
+}
+
+div {
+    position: relative;
+    background-color: chartreuse;
+ /* position: static;
+    top: 50px;  all 4 will be ignored if used with static position */
+ /* position: relative;
+    top:5px; 
+    bottom: 5px; only two properties will work, rest will be ignored, ie left and top
+    left: 5px;
+    right: 5px; */
+    /* inset: 5px; shortcut that includes all 4 top,right,bottom,left */
+}
+
+ul {
+    position: relative;   /* children of relative positioned parent or grandparent will move along with parent instead of viewport ie li */
+    background-color: brown;
+    margin-top: 50px;;
+}
+
+.css-element {
+    background-color: aquamarine;
+    /* position: absolute; all defined properties will work with absolute position
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px; 
+    inset: 5px;*/
+}
+
+.javascript-element
