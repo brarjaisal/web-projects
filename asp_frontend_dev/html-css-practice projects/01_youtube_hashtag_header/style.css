@@ -31,6 +31,11 @@ h1 {
     vertical-align: middle;
 }
 
-img + img {
+img {
     margin-left: -1rem;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row-reverse;
 }
