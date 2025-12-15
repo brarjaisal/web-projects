@@ -39,4 +39,15 @@ link.setAttribute('class', 'green-link')
 link.classList.add('green-link') 
 link.classList.remove('my-list')
 // link.classList.toggle('my-link')
-}        
+}       
+
+const firstLink = document.querySelector("body > p:nth-child(5) > a:nth-child(2)")
+console.log(firstLink.parentElement) // this will log parent element of first anchor tag link
+console.log(firstLink.nextSibling) // this is logging next sibling text node of first anchor tag link
+console.log(firstLink.previousSibling) // this is logging previous sibling text node of first anchor tag link
+console.log(firstLink.nextElementSibling) // // this will log next sibling element of first anchor tag link
+console.log(firstLink.previousElementSibling)
+console.log(firstLink.children) // this will give children elements
+console.log(firstLink.childNodes) // this will give any child text nodes
+
+// All elements are nodes but all nodes are not elements
