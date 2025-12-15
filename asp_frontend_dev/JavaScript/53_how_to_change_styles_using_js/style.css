@@ -20,3 +20,24 @@ p b {
 #heading {
     color: brown;
 }
+
+.green-link {
+    color: teal;
+    text-decoration-line: none;
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.wavy-link {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.my-link {
+    border: 2px solid green;
+}
+
+.hidden {
+    display: none;
+}
