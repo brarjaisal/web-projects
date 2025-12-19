@@ -55,3 +55,5 @@ ageInput.addEventListener('input', (e) => {
 // to clear data from localStorage:
 // localStorage.removeItem('myData') if need to clear single item
 // localStorage.clear this will clear all data 
+
+// data stored using localStorage will only be stored on that particular url
