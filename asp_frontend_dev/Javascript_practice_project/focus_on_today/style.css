@@ -31,9 +31,19 @@ main {
   box-shadow: 0 0 8px 0px rgb(0, 0, 0, 0.1);
 }
 
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg); /* Start the rotation at 0 degrees */
+    }
+    100% {
+        transform: rotate(360deg); /* End the rotation at 360 degrees */
+    }
+}
+
 .sun-icon {
   vertical-align: middle;
   margin-left: 16px;
+  animation: rotate 2s linear infinite; 
 }
 
 .progress-label {
@@ -60,10 +70,12 @@ main {
   display: flex;
   align-items: center;
   overflow: hidden;
+  transition: width 0.25s ease-in-out;
 }
 
 .progress-value span {
-    padding-left: 20px;
+  padding-left: 20px;
+  min-width: max-content;
 }
 
 .error-label {
@@ -119,6 +131,26 @@ main {
 
 .goal-input::placeholder {
   color: rgba(217, 217, 217, 1);
+}
+
+.reset-button {
+  background-color: rgba(72, 163, 0, 1);
+  border: 2px solid rgba(72, 163, 0, 1);
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(238, 255, 224, 1);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  box-shadow: 0 0 8px 0px rgb(0, 0, 0, 0.1);
+  background-color: rgba(72, 163, 0, 0.1);
+  color: rgba(72, 163, 0, 1);
 }
 
 .quote {
